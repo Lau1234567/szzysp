@@ -1,0 +1,217 @@
+/* 导航栏 */
+#nav{
+    min-width: 1000px;;
+    height: 74px;
+    background: #d43b33;
+}
+#nav li{
+    float: left;
+    line-height: 74px;
+    color: #fcf6f6;
+    margin-right: 60px;
+}
+#nav .active{
+    background: url(../images/nav_bg.png) no-repeat -8px 67px;
+}
+#nav li a{
+    color: #fcf6f6;
+}
+/* 轮播盒子 */
+#banner{
+    height: 279px;
+}
+#banner img{
+    width: 100%;
+    height: 279px;
+}
+/* 专家团队 */
+#team{
+    height: 408px;
+}
+
+#team .wenzi{
+    width: 200px;
+    /* margin: 56px 410px 0px 390px; */
+    padding: 56px 410px 50px 390px;
+}
+#team .wenzi>p{
+    color: #000;
+}
+#team .wenzi>p:first-child{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+#team .wenzi>p:last-child{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: bold;
+}
+/* 左盒子 */
+#team .one{
+    margin-right: 24px;
+    float: left;
+}
+#team .two{
+    float: left;
+    width: 648px;
+    height: 220px;
+    background: #fafafa;
+}
+#team .two>div{
+    margin-top: 18px;
+    margin-left: 42px;
+}
+#team .two>div>.biankuang{
+    width: 154px;
+    border-bottom: 2px solid #d43b33;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+#team .two>div>.biankuang>p>a{
+    color: #000;
+}
+#team .two>div>p:last-child{
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 14px;
+    color: #696c6e;
+}
+/* 专家风采 */
+#experts{
+    height: 524px;
+    background: #f7f7f7;
+    border-top: 1px solid #e6e6e6;
+}
+#experts .wenzi{
+    margin: 56px auto;
+}
+#experts .wenzi>p:first-child{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+#experts .wenzi>div>p>a{
+    color: #fff;
+}
+#experts .wenzi>div{
+    width: 74px;
+    height: 24px;
+    background: #3399ff;
+    margin:12px auto;
+}
+#experts .wenzi>div>p{
+    font-size: 18px;
+}
+#experts .zuo{
+    width: 300px;
+    height: 250px;
+    background:#fff;
+    margin-left: 50px;
+}
+#experts .zuo>div{
+    width: 164px;height: 22px;
+    border-bottom: 2px solid #d43b33;
+    margin: 28px 0px 26px 68px;
+}
+#experts .zuo>div>p>a{
+    font-size: 14px;
+    color: #000;
+}
+/* 第二个 */
+#experts .center{
+    width: 300px;
+    height: 250px;
+    background:#fff;
+    margin-left: 15px;
+}
+#experts .center>div{
+    width: 164px;height: 22px;
+    border-bottom: 2px solid #d43b33;
+    margin: 28px 0px 26px 68px;
+}
+#experts .center>div>p>a{
+    font-size: 14px;
+    color: #000;
+}
+/* 第三个 */
+#experts .right{
+    width: 300px;
+    height: 250px;
+    background:#fff;
+    margin-left: 15px;
+}
+#experts .right>img{
+    width: 262px;
+    height: 166px;
+    margin-top: 4px;
+    margin-left: 16px;
+}
+#experts .right>div{
+    width: 164px;height: 22px;
+    border-bottom: 2px solid #d43b33;
+    margin: 28px 0px 26px 68px;
+}
+#experts .right>div>p>a{
+    font-size: 14px;
+    color: #000;
+}
+/* 翻页 */
+#experts .fanye>.one{
+    width: 284px;
+    height: 32px;
+    background: #e5e5e5;
+    border: 0;
+    margin-left: 382px;
+    margin-top: 34px;
+}
+#experts .fanye>.one>p>a{
+    float: right;
+   color: #fff;
+   line-height: 32px;
+   font-size: 24px;
+   
+}
+#experts .youFanye>.one{
+    width: 284px;
+    height: 32px;
+    background: #d43b33;
+    border: 0;
+    margin-left: 14px;
+    margin-top: 34px;
+}
+#experts .youFanye>.one>p>a{
+   line-height: 32px;
+   font-size: 24px;
+   color: #fff;
+   
+}
+/* 底部 */
+#foot{
+    height: 316px;
+    background: url(../images/footer_bg.png);
+}
+#foot img{
+    float: left;
+    margin-top: 56px;
+}
+.wenzi>p{
+    color: #fcf8f8;
+}
+.wenzi>p:nth-child(1){
+    font-weight: bold;
+    font-size: 15px;
+}
+.wenzi span{
+    color: #979797;
+}
+#foot .wenzi{
+    padding: 39px 91px ;
+    float: left;
+    line-height: 30px;
+}
+#foot .wenzi>.ip{
+    padding:59px 0px ;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/联系我们.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <style>
+        .swiper-container {
+            height: 279px;
+        }
+        dt{
+            color: #b8200d;
+            padding:50px 5px 5px 20px;
+        }
+    </style>
+</head>
+
+<body>
+<script src="css/js/swiper-bundle.min.js"></script>
+    <!-- 导航栏 -->
+    <div id="nav">
+        <div class="container clearfix">
+            <img src="images/zysp.png" alt="忠渔食品" class="fl">
+            <ul class="fr clearfix">
+                <li>
+                    <a href="index.html" target="_self">首页</a>
+                </li>
+                <li>
+                    <a href="平台简介.html" target="_self">平台简介</a>
+                </li>
+                <li>
+                    <a href="百业好项目.html" target="_self">百业好项目</a>
+                </li>
+                <li>
+                    <a href="#">新闻中心</a>
+                </li>
+                <li>
+                    <a href="专家团队.html" target="_self">专家团队</a>
+                </li>
+                <li>
+                    <a href="#">课程中心</a>
+                </li>
+                <li class="active">
+                    <a href="#">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 广告 -->
+<!--    <div id="adver">-->
+<!--        <img src="images/banner.png" alt="">-->
+<!--    </div>-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/banner.jpg" alt="" height="279px" width="100%"></div>
+            <div class="swiper-slide"><img src="./images/banner1.png" alt="" height="279px" width="100%"></div>
+            <div class="swiper-slide"><img src="./images/banner2.png" alt="" height="279px" width="100%"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: true,//可选选项，自动滑动
+        })
+    </script>
+    </div>
+    <!-- 联系我们 -->
+    <div id="aboutUs" class="container">
+        <div class="dahezi clearfix">
+            <div class="biaoti">
+                <p>CONTACT INFORMATION</p>
+                <p>联系方式</p>
+            </div>
+            <div class="one">
+                <div class="shangHai">
+                    <img src="images/contact01.png" alt="">
+                    <p>ADDRESS</p>
+                    <p>上海</p>
+                    <p>上海市宝山区泰和路1700号小江阳市场k3-158</p>
+                    <p>安徽</p>
+                    <p>安徽省宿州市埇桥区城东街道东十里循环经济示范园闵贤路413号</p>
+                </div>
+                <div class="phone">
+                    <img src="images/contact02.png" alt="">
+                    <p>PHONE</p>
+                    <p>18655785065</p>
+                    <p>周一到周日</p>
+                    <p>9:00—23:00</p>
+                </div>
+                <div class="e-mail">
+                    <img src="images/contact03.png" alt="">
+                    <p>E-Mail</p>
+                    <p>zysp615123@163.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 地图 -->
+    <div id="map">
+        <img src="images/map.png" alt="">
+    </div>
+
+    <!-- 底部 -->
+    <div id="foot">
+        <div class="container clearfix">
+            <img src="images/zysp2.png" alt="">
+            <div class="wenzi">
+                <p>宿州忠渔食品有限公司</p>
+                <p>电话：18655785065</p>
+                <p>邮编：201900&#12288地址：上海市宝山区泰和路1700号小江阳市场k3-158</p>
+                <p>邮编：234000&#12288地址：安徽省宿州市埇桥区城东街道东十里循环经济示范园闵贤路413号</p>
+                <div class="ip">
+                    <span>Copyright 2015 蜀ICP备：2014043248-1号</span>
+                </div>
+            </div>
+            <dl class="fr clearfix">
+                <dt>官方微信</dt>
+                <dd><img src="./images/wechat.jpg" height="100px" width="100px" align="right"></dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>

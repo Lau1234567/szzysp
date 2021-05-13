@@ -1,0 +1,242 @@
+/* 导航栏 */
+#nav{
+    min-width: 1000px;;
+    height: 74px;
+    background: #d43b33;
+}
+#nav li{
+    float: left;
+    line-height: 74px;
+    color: #fcf6f6;
+    margin-right: 60px;
+}
+#nav .active{
+    background: url(../images/nav_bg.png) no-repeat -2px 67px;
+}
+#nav li a{
+    color: #fcf6f6;
+}
+/* 轮播盒子 */
+#banner{
+    height: 279px;
+}
+#banner img{
+    width: 100%;
+    height: 279px;
+}
+ /* 百年好项目 */
+ #begdpt{
+    height: 1984px;
+ 
+}
+#begdpt .daohang{
+    width: 220px;
+    height: 40px;
+    padding-top: 36px;
+    font-weight: bold;
+}
+#begdpt .daohang>a{
+    color: #000000;
+}
+#begdpt .zjjs{
+    width: 600px;
+    height: 60px;
+    margin-top: -18px;
+    margin-right: 183px;
+    line-height: 45px;
+}
+#begdpt .zjjs>p:nth-child(1){
+    font-size: 23px;
+    color: #d43b33;
+    font-weight: bold;
+    text-align: center;
+}
+#begdpt .zjjs>p:nth-child(2){
+    color: #666666;
+    font-weight: bold;
+    text-align: center;
+}
+/* 文字 */
+#begdpt .zj{
+    height: 1765px;
+    border-top:1px solid #f3e3c9;
+    margin-top: 84px;
+}
+#begdpt .wz1{
+    width: 939px;
+    height: 45px;
+    
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz2{
+    width: 922px;
+    height: 174px;
+  
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz3{
+    width: 692px;
+    height: 151px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .zj>img{
+    width: 663px;
+    height: 438px;
+    margin-top: 0px;
+    margin-left: 191px;
+}
+#begdpt .wz4{
+    width: 912px;
+    height: 44px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz5{
+    width: 893px;
+    height: 78px;
+  
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz6{
+    width: 848px;
+    height: 97px;
+  
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz6>p:nth-child(1){
+    line-height: 50px;
+}
+#begdpt .wz7{
+    width: 918px;
+    height: 275px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz7>p:nth-child(1){
+    line-height: 50px;
+}
+#begdpt .wz8{
+    width: 911px;
+    height: 71px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz9{
+    width: 181px;
+    height: 47px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 81px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+#begdpt .wz10{
+    width: 330px;
+    height: 28px;
+
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-left: 11px;
+    line-height: 25px;
+}
+/* 翻页 */
+#begdpt .xiafanye{
+    width: 326px;
+    height: 29px;
+    margin-top: 87px;
+    margin-left:11px;
+}
+#begdpt .shangyipian{
+    margin-top: 5px;
+}
+#begdpt .shangyipian>span>a{
+    color: #b8200d;
+}
+#begdpt .shangyipian>span{
+    color: #b8200d;
+    font-weight: bold;
+}
+#begdpt .xiayipian{
+    float: right;
+    margin-top: -17px;
+}
+#begdpt .xiayipian>span{
+    color: #b8200d;
+    font-weight: bold;
+}
+#begdpt .xiayipian>span>a{
+    color: #b8200d;
+}
+
+/* 底部 */
+#foot{
+    height: 316px;
+    background: url(../images/footer_bg.png);
+}
+#foot img{
+    float: left;
+    margin-top: 56px;
+}
+.wenzi>p{
+    color: #fcf8f8;
+}
+.wenzi>p:nth-child(1){
+    font-weight: bold;
+    font-size: 15px;
+}
+.wenzi span{
+    color: #979797;
+}
+#foot .wenzi{
+    padding: 39px 91px ;
+    float: left;
+    line-height: 30px;
+}
+#foot .wenzi>.ip{
+    padding:59px 0px ;
+}
