@@ -18,11 +18,14 @@
             color: #b8200d;
             padding:50px 5px 5px 20px;
         }
+        #baidumap {width: 100%;height: 425px;overflow: hidden;margin:0;font-family:"微软雅黑";}
     </style>
+    <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=RsUdN5jLtuxLf0s0ZqGu6ktiS5T0S14j"></script>
 </head>
 
 <body>
 <script src="css/js/swiper-bundle.min.js"></script>
+
     <!-- 导航栏 -->
     <div id="nav">
         <div class="container clearfix">
@@ -54,9 +57,6 @@
     </div>
 
     <!-- 广告 -->
-<!--    <div id="adver">-->
-<!--        <img src="images/banner.png" alt="">-->
-<!--    </div>-->
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./images/banner.jpg" alt="" height="279px" width="100%"></div>
@@ -102,10 +102,7 @@
         </div>
     </div>
     <!-- 地图 -->
-    <div id="map">
-        <img src="images/map.png" alt="">
-    </div>
-
+    <div id="baidumap"></div>
     <!-- 底部 -->
     <div id="foot">
         <div class="container clearfix">
@@ -126,4 +123,14 @@
         </div>
     </div>
 </body>
+
 </html>
+<script>
+    var map = new BMapGL.Map('baidumap');
+    map.centerAndZoom(new BMapGL.Point(121.453883,31.360257), 16);
+    map.enableScrollWheelZoom(true);
+    // 创建点标记
+    var marker1 = new BMapGL.Marker(new BMapGL.Point(121.453883,31.360257));
+     // 在地图上添加点标记
+    map.addOverlay(marker1);
+</script>
