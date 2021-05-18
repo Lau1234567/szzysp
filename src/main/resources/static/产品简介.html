@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/产品简介.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <style>
+        .swiper-container {
+            height: 279px;
+            margin-left:25%;
+            margin-bottom: 15px;
+        }
+        dt{
+            color: #b8200d;
+            padding:50px 5px 5px 20px;
+        }
+        h3{
+            font-size: 30px;
+            background-color: #333333;
+            font-family: 楷体;
+            font-weight: bold;
+            color: royalblue;
+            margin-left:25%;
+            margin-right: 26.265%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<script src="css/js/swiper-bundle.min.js"></script>
+    <!-- 导航栏 -->
+    <div id="nav">
+        <div class="container clearfix">
+            <img src="./images/zysp.png" alt="忠渔食品" class="fl">
+            <ul class="fr clearfix">
+                <li>
+                    <a href="index.html" target="_self">首页</a>
+                </li>
+                <li class="active">
+                    <a href="#">产品简介</a>
+                </li>
+                <li>
+                    <a href="百业好项目.html" target="_self">百业好项目</a>
+                </li>
+                <li>
+                    <a href="#">新闻中心</a>
+                </li>
+                <li>
+                    <a href="专家团队.html" target="_self">专家团队</a>
+                </li>
+                <li>
+                    <a href="#">课程中心</a>
+                </li>
+                <li>
+                    <a href="联系我们.html" target="_self">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 轮播盒子 -->
+    <h3>宝宝</h3>
+    <div class="swiper-container" id="swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/宝宝.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/宝宝1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/宝宝2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>古斯纳</h3>
+    <div class="swiper-container" id="swiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/古斯纳.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/古斯纳1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/古斯纳2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>思一鲜</h3>
+    <div class="swiper-container" id="swiper3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/思一鲜.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/思一鲜1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/思一鲜2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>斯古森</h3>
+    <div class="swiper-container" id="swiper4">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/斯古森.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/斯古森1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/斯古森2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>鲟遇</h3>
+    <div class="swiper-container" id="swiper5">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/鲟遇.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/鲟遇1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/鲟遇2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>英文</h3>
+    <div class="swiper-container" id="swiper6">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/英文.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/英文1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/英文2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <h3>遇鲟</h3>
+    <div class="swiper-container" id="swiper7">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/遇鲟.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/遇鲟1.jpg" alt="" height="279px" width="65%"></div>
+            <div class="swiper-slide"><img src="./images/遇鲟2.jpg" alt="" height="279px" width="65%"></div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('#swiper1', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper2', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper3', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper4', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper5', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper6', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+        var mySwiper = new Swiper('#swiper7', {
+            autoplay: {
+                delay: 6000,//6秒切换一次
+            },
+        })
+    </script>
+    <!-- 主要内容 -->
+    <!-- 关于我们 -->
+<!--    <div id="aboutUs" class="container">-->
+<!--        <div class="box">-->
+<!--            <div class="box2 clearfix">-->
+<!--                <p>"品一·思格成"是一个以企业管理咨询和教育培训为载体的资源整合、产融结合综合服务部平台, 致力于成为国内顶尖的"中国企业产融结合整体运营商"！</p>-->
+<!--                <p>它将缔造一种全新的"咨教产融"商业模式和运营体系，将产业资本与金融资本进行有机结合，形成集实体经营、管理咨询、教育培训、资源整合、投融服务等为一体的"产融结合产业链"，</p>-->
+<!--                <p>服务于平台内的企业家，为社会创造更大的价值，为实现中国梦做贡献！</p>-->
+<!--                <p>"A SPENCE LATTICE" IS A RESOURCE INTEGRATION, ENTERPRISE MANAGEMENT CONSULTING AND EDUCATION AS THE CARRIER-->
+<!--                    OF-->
+<!--                </p>-->
+<!--                <p>THE COMBINATION OF COMPREHENSIVE SERVICE PLATFORM, TO BECOME THE DOMESTIC LEADING ENTERPRISES "CHINA COMBINATION-->
+<!--                    OF INTEGRAL OPERATORS"!</p>-->
+<!--                <p>IT WILL CREATE A NEW "CONSULTATIVE TEACHING FINANCE" BUSINESS MODEL AND OPERATING SYSTEM, THE INDUSTRIAL-->
+<!--                    CAPITAL AND FINANCIAL CAPITAL ORGANICALLY, FORM A SET OF BUSINESS ENTITIES, MANAGEMENT CONSULTING, EDUCATION-->
+<!--                    AND TRAINING, INTEGRATION OF</p>-->
+<!--                <p>RESOURCES, INVESTMENT</p>-->
+<!--            </div>-->
+<!--            <div class="wrap">-->
+<!--                <p>ABOUT US</p>-->
+<!--                <p>关于品一思格成</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; 百业好项目 &ndash;&gt;-->
+<!--    <div id="corporate">-->
+<!--        <div class="container wrap3 clearfix">-->
+<!--            <div class="biaoti fl">-->
+<!--                <p>CORPORATE CULTURE</p>-->
+<!--                <p>我们的企业文化</p>-->
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <p>我们的愿景：</p>-->
+<!--                        <p>家庭幸福、企业兴旺、社会和谐、祖国富强！</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <p>我们的愿景：</p>-->
+<!--                        <p>家庭幸福、企业 兴旺、社会和谐、祖国富强！</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <p>我们的愿景：</p>-->
+<!--                        <p>家庭幸福、企业兴旺、社会和谐、祖国富强！</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <p>我们的愿景：</p>-->
+<!--                        <p>家庭幸福、企业兴旺、社会和谐、祖国富强！</p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="fr">-->
+<!--                <img src="images/aboutusright.png" alt="">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!-- 大事记 -->
+    <div id="dashiji">
+        <div class="container">
+            <div class="wrap">
+                <div class="wenzi">
+                    <p>PROJECT</p>
+                    <p>大事记</p>
+                </div>
+                <div class="wenzi2">
+                    <p>忠渔食品，将致力于"为广大国民提供健康优质的白蛋白"，肩负着圣神的使命与责任！</p>
+                </div>
+            </div>
+            <div class="tupian clearfix">
+                <img src="images/e1.png" alt="" class="fl">
+                <div class="miaoshu fl">
+                    <p>2013年11月，闪亮登场</p>
+                    <p>思格成与品一科技合作，联手打造【品一·思格成】大平台，共同开创“中国企业产融结合新模式”。</p>
+                </div>
+                <img src="images/e2.png" alt="">
+                <div class="miaoshu fr">
+                    <p>2014年3月25日—27日</p>
+                    <p>品一·思格成“第一届中国企业产融结合高峰论坛暨中国好项目落地展示会”在中国上海隆重举行！</p>
+                </div>
+                <img src="images/e4.png" alt="" class="fr">
+                <div class="miaoshu fr">
+                    <p>2014年5月13日—15日日</p>
+                    <p>品一·思格成“第二届中国企业产融结合高峰论坛暨中国好项目落地展示会”在中国上海宝华万豪酒店隆重举行。</p>
+                </div>
+                <img src="images/e3.png" alt="" class="fr">
+                <div class="miaoshu fr">
+                    <p>2014年9月28日—30日</p>
+                    <p>品一·思格成“第届届中国企业产融结合高峰论坛暨中国好项目落地展示会”在中国上海宝华万豪酒店隆重举行。</p>
+                </div>
+            </div>
+            <div class="weiba">
+                <p>2021我们还在继续...... </p>
+            </div>
+        </div>
+    </div>
+<!-- 底部 -->
+<div id="foot">
+    <div class="container clearfix">
+        <img src="images/zysp2.png" alt="忠渔食品">
+        <div class="wenzi">
+            <p>宿州忠渔食品有限公司</p>
+            <p>电话：18655785065</p>
+            <p>Email：zysp615123@163.com</p>
+            <p>邮编：201900&#12288地址：上海市宝山区泰和路1700号小江阳市场k3-158</p>
+            <p>邮编：234000&#12288地址：安徽省宿州市埇桥区城东街道东十里循环经济示范园闵贤路413号</p>
+            <div class="ip">
+                <span>Copyright 2015 蜀ICP备：2014043248-1号</span>
+            </div>
+        </div>
+        <dl class="fr clearfix">
+            <dt>官方微信</dt>
+            <dd><img src="./images/wechat.jpg" height="100px" width="100px" align="right"></dd>
+        </dl>
+    </div>
+</div>
+</body>
+</html>
