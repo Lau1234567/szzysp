@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>忠渔食品</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/联系我们.css">
@@ -37,18 +37,18 @@
                 <li>
                     <a href="产品简介.html" target="_self">产品简介</a>
                 </li>
-                <li>
-                    <a href="百业好项目.html" target="_self">百业好项目</a>
-                </li>
-                <li>
-                    <a href="#">新闻中心</a>
-                </li>
-                <li>
-                    <a href="专家团队.html" target="_self">专家团队</a>
-                </li>
-                <li>
-                    <a href="#">课程中心</a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="百业好项目.html" target="_self">百业好项目</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">新闻中心</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="专家团队.html" target="_self">专家团队</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">课程中心</a>-->
+<!--                </li>-->
                 <li class="active">
                     <a href="#">联系我们</a>
                 </li>
@@ -104,6 +104,7 @@
     </div>
     <!-- 地图 -->
     <div id="baidumap"></div>
+<!--    <div id="r-result"></div>-->
     <!-- 底部 -->
     <div id="foot">
         <div class="container clearfix">
@@ -128,10 +129,29 @@
 </html>
 <script>
     var map = new BMapGL.Map('baidumap');
-    map.centerAndZoom(new BMapGL.Point(121.453883,31.360257), 16);
-    map.enableScrollWheelZoom(true);
+    var point = new BMapGL.Point(121.453883,31.360257);
+    map.centerAndZoom(point, 16);
+    // 通过方法方式设置地图允许的最大最小级别
+    // map.setMinZoom(15);
+    // map.setMaxZoom(20);
+    // map.enableScrollWheelZoom(true);
     // 创建点标记
-    var marker1 = new BMapGL.Marker(new BMapGL.Point(121.453883,31.360257));
+    var marker1 = new BMapGL.Marker(point);
      // 在地图上添加点标记
     map.addOverlay(marker1);
+    // 创建信息窗口
+    var opts = {
+        width: 200,
+        height: 100,
+        title: '门店位置'
+    };
+    var infoWindow = new BMapGL.InfoWindow('地址：上海市宝山区泰和路1700号小江阳市场k3-158', opts);
+    // 点标记添加点击事件
+    marker1.addEventListener('click', function () {
+        map.openInfoWindow(infoWindow, point); // 开启信息窗口
+    });
+    var local = new BMapGL.LocalSearch(map, {
+        renderOptions: {map: map, panel: "r-result"}
+    });
+    local.search("上海市宝山区泰和路1700号小江阳市场k3-158");
 </script>
