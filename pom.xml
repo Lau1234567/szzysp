@@ -12,6 +12,7 @@
 	<artifactId>szzysp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- 打包成 WAR -->
+<!--	5555-->
 	<packaging>war</packaging>
 	<name>szzysp</name>
 	<description>szzysp project for Spring Boot</description>
