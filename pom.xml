@@ -11,9 +11,8 @@
 	<groupId>com.szzysp</groupId>
 	<artifactId>szzysp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- 打包成 WAR -->
-<!--	5555-->
-	<packaging>war</packaging>
+	<!-- 打包成 JAR -->
+	<packaging>jar</packaging>
 	<name>szzysp</name>
 	<description>szzysp project for Spring Boot</description>
 	<properties>
@@ -49,6 +48,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
